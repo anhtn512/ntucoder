@@ -12,7 +12,7 @@ headers = {
     'Upgrade-Insecure-Requests': '1'
 }
 s.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'})
-payload = {'Email': 'anhvjp123z@gmail.com', 'MatKhau': '123456', 'RememberMe': 'true', 'x': '52', 'y': '21'}
+payload = {'Email': '********************', 'MatKhau': '******', 'RememberMe': 'true', 'x': '52', 'y': '21'}
 url = 'http://ntucoder.net/Account/LogIn'
 p = s.post(url, data=payload)
 # print(p.text)
